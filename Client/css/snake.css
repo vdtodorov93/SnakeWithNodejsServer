@@ -1,0 +1,58 @@
+.free-field {
+    background-color: cyan;
+}
+
+.obstacle {
+    background-color: darkblue;
+}
+
+.fruit {
+    background-color: red;
+}
+
+.snake {
+    background-color: darkgreen;
+}
+
+#container span {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#container > div {
+    padding: 0;
+    margin: 0;
+    display: block;
+    height: 20px;
+}
+
+button {
+    background-color: pink;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+html {
+    background-color: lightgoldenrodyellow;
+}
+
+#data {
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+
+#wrapper {
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
